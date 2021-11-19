@@ -1,6 +1,7 @@
 pipeline {
 agent any
 	stages{
+stage('Build'){
 	steps{
 		echo "Build"
 		}
@@ -15,5 +16,4 @@ agent any
 		echo "Integration Test"
 		}
 	}
-}
 }
